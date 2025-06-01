@@ -1,0 +1,115 @@
+/*Global*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 5px 30px 5px 30px;
+}
+
+/*Gallery*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/*PHOTOS*/
+.img-1 {background-image: url('../images/pexels-andrea-piacquadio-845434.jpg');}
+.img-2 {background-image: url('../images/pexels-andrea-piacquadio-994234.jpg');}
+.img-3 {background-image: url('../images/pexels-evg-kowalievska-1040173.jpg');}
+.img-4 {background-image: url('../images/pexels-godisable-jacob-794062.jpg');}
+.img-5 {background-image: url('../images/pexels-godisable-jacob-818992.jpg');}
+.img-6 {background-image: url('../images/pexels-spencer-selover-428340.jpg');}
+.img-7 {background-image: url('../images/pexels-godisable-jacob-965324.jpg');}
+.img-8 {background-image: url('../images/pexels-juan-mendez-1536619.jpg');}
+.img-9 {background-image: url('../images/pexels-lumn-322207.jpg');}
+.img-10 {background-image: url('../images/pexels-yuri-manei-2690323.jpg');}
+.img-11 {background-image: url('../images/pexels-snack-toronto-1630344.jpg');}
+.img-12 {background-image: url('../images/pexels-pixabay-247204.jpg');}
+
+.a{
+    
+}
+/*Gallery*/
+body {
+    background: black;
+    padding: 60px, 30px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Open Sans', 'sans-serif';
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+.element {
+    margin: 5px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+
+.inside-container, .flex-column, .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.element, .element-big {
+    height: 180px;
+}
+
+body:hover .element {
+    opacity: 0.5;
+}
+
+body .element:hover {
+    opacity: 1;
+}
+.a{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+}
+.heart{
+    color: red;
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.bright{
+    display: none;
+}
+.j {
+    display: none;
+}
+/*Media Mobile RWD*/
+
+@media (max-width: 767px) {
+    .flex-row, .inside-container, .flex-column {
+       display: block;
+        align-items: center; 
+    }
+
+    .element {
+        height: 500px;
+    }
+
+    .navbar {
+        padding: 5px 30px 5px 30px;
+    }
+
+    .btn-group {
+        left: -50%;
+    }
+}
