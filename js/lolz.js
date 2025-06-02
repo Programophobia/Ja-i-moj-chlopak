@@ -47,40 +47,8 @@ const products = [
     pi.addEventListener('click', printHeart)
   }
 
-//filter
 
-/*const  thisBooksList = this;
-const filters = []
-thisBooksList.filtersForm = document.querySelector('.filters');
 
-  thisBooksList.filtersForm.addEventListener('click', function(event){
-    if (event.target.checked){
-      filters.push(event.target.value);
-      console.log(filters);
-    }
-    else {
-      filters.splice(filters.indexOf(event.target.value),1);
-    }
-    thisBooksList.filterBooks();
-  });
-
-  function filterBooks() {
-    for (let book of dataSource.books){
-      let hidden = false;
-      for (const filter of filters){
-        if (!book.details[filter]){
-          hidden = true;
-        }
-      }
-      const bookElement = document.querySelector('.book__image[data-id="' + book.id +'"]');
-      if (hidden) {
-        bookElement.classList.add('hidden');
-      }
-      else {
-        bookElement.classList.remove('hidden');
-      }  
-    }
-  }*/
  
   const newChecbox = document.querySelector('.new')
   const classicChecbox = document.querySelector('.classic')
