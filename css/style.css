@@ -58,8 +58,9 @@ h1 {
 .element {
     margin: 5px;
     border-radius: 5px;
-    background-position: center;
+   background-position: center;
     background-size: cover;
+
 }
 
 .inside-container, .flex-column, .flex-row {
