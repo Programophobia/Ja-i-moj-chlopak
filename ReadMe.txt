@@ -1,1 +1,1 @@
- https://mojchopak.netlify.app/
+https://mojchopak.netlify.app/
